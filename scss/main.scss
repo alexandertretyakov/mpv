@@ -126,8 +126,7 @@ a {
         }
     }
 
-.blackout {
-display: none;
+.overlay {
     position: fixed;
     top: 0;
     right: 0;
@@ -135,18 +134,19 @@ display: none;
     left: 0;
     background: #000000;
     opacity: 0.7;
+    display: none;
 }
 
-.the-photo {
+.pop-up {
     width: 500px;
     height: 300px;
     position: fixed;
     top: 50%;
     left: 50%;
-    border: 5px solid #ffffff;
-background: url("../images/house.png") contain;
     margin-top: -140px;
     margin-left: -250px;
+    border: 5px solid #ffffff;
+    //background: url("../images/house.png") contain;
 }
 
 /* --------------------------------------------------------------------- Footer */
