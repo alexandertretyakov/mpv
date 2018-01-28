@@ -126,6 +126,29 @@ a {
         }
     }
 
+.blackout {
+display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0.7;
+}
+
+.the-photo {
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 5px solid #ffffff;
+background: url("../images/house.png") contain;
+    margin-top: -140px;
+    margin-left: -250px;
+}
+
 /* --------------------------------------------------------------------- Footer */
 
 .footer {
