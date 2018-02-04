@@ -135,6 +135,10 @@ a {
     background: #000000;
     opacity: 0.7;
     display: none;
+    
+    &.open {
+        display: block;
+    }
 }
 
 .pop-up {
@@ -148,6 +152,10 @@ a {
     border: 5px solid #ffffff;
     background-size: cover;
     display: none;
+
+    &.open {
+        display: block;
+    }
 }
 
 /* --------------------------------------------------------------------- Footer */
